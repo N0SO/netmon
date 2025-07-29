@@ -45,7 +45,7 @@ if __name__ == "__main__":
     consecutive_failures = 0
 
     while True:
-        print ('net check...')
+        #print ('net check...')
         if not check_network_connectivity(ping_target):
             consecutive_failures += 1
             print(f"Network check failed. Consecutive failures: {consecutive_failures}")
